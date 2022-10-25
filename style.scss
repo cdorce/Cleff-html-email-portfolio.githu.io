@@ -37,6 +37,7 @@ html {
 
 .nav {
     display: flex;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     border: 2px solid red;
@@ -50,4 +51,53 @@ html {
     padding-right: .8rem;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.menu a:last-child {
+    padding-right: 0;
+}
+
+.hero-container {
+    background-image: url('');
+    background-color: #777777;
+    border: 2px solid rgb(0, 255, 242);
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+
+} 
+.img-container {
+    background-image: url('/profile-img.jpg');
+    background-position: center;
+    margin-top: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:50vw;
+    height: 80vh;
+}  
+
+.text-container {
+    width: 50vw;
+    padding: 5rem 1.8rem;
+
+
+
+
+
+
+
+
+
+    & p{
+       font-family: $second-font;
+       line-height: 1.8vw;
+       background-color: aqua;
+       margin: 1.8rem 0 ;
+    }
+
+    & .social-media img{
+        width:2rem;
+
+    }
+
 }
