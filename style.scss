@@ -1,0 +1,53 @@
+
+$primary-font:'Reem Kufi', sans-serif;
+$second-font:'Noto Sans', sans-serif;
+
+$color1:#f4f4f4;
+$color2:#999999;
+$color3:#777777;
+$color4:#555555;
+$color5:#333333;
+$color6:#111111;
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $primary-font;
+    background-color: $color1;
+    color:$color6;
+    font-size: 16px;
+
+}
+
+/*NAV BAR STYLING*/
+
+
+.logo{
+    background-image: url('/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 6vw;
+    height: 4.5vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    padding: 1.2rem ;
+}
+
+
+.menu a{
+    border: 2px solid rgb(30, 255, 0);
+    text-decoration: none;
+    padding-right: .8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
