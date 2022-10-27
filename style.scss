@@ -123,8 +123,7 @@ html {
     border: 2px solid rgb(206, 151, 50);
     flex-basis:50%;
     height: 90vh;
-
-
+    font-family: $second-font;
 
 }
 
@@ -172,25 +171,91 @@ html {
 
 /*FOR TESTING*/
 
+.portfolio-container {
+    border: 3px solid rgb(201, 73, 14);
+    width: 100vw;
+    display: flex;
+    flex-direction:column ;
 
 
+}
 
-.projects-card {
-    background: #ffffffbb;
-    border-radius: 15px;
-    padding: 1.5em 1em;
-    color: #002e33;
-    cursor: pointer;
-    font-weight: bold;  
-    display: none;
-    margin: 1.5em 2em ;
-    box-shadow: 2px 1px 3px #dff8fa;
+.filterBtns{
+    border: 1px solid rgb(134, 30, 117);
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
 }
 
 
 
+
+.projects-Container{
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+    padding: $Padding;
+    height: 100vh;
+}
+
+[class ^="block-"]{
+    border: 2px solid rgb(6, 29, 80);
+    display: flex;
+    flex-direction: row;
+    height: (100vh)/3;
+    gap: $gap;
+    padding: $Padding;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projects-card {
+    border: 3px solid rgb(156, 223, 101);
+    color: #002e33;
+    cursor: pointer;  
+    display: none;
+    margin-bottom: 3rem;
+
+
+    & img{
+        width:15rem ;
+        margin: 3rem 0;
+    }
+
+    & h3 {
+        background-color: rgb(43, 214, 226);
+        font-family: $second-font;
+        padding-bottom: .5rem;
+
+
+    }
+
+    & h4{
+        background-color: blueviolet;
+        padding-bottom: 1.5rem;
+    }
+
+
+    & a{
+        background-color: red;
+        font-family: $second-font;
+        
+        padding: 0.5rem;
+    }
+}
+
+
+
+
 .show {
-    display: block;
+    display:flex ;
+    justify-content: center;
+    align-items: center; 
+    flex-basis: (100%)/3;
+    flex-wrap: wrap;
+
 }
 
 
