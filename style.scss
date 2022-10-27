@@ -168,3 +168,53 @@ html {
     flex-basis: (100%)/3;
  
 }
+
+
+/*FOR TESTING*/
+
+
+
+
+.projects-card {
+    background: #ffffffbb;
+    border-radius: 15px;
+    padding: 1.5em 1em;
+    color: #002e33;
+    cursor: pointer;
+    font-weight: bold;  
+    display: none;
+    margin: 1.5em 2em ;
+    box-shadow: 2px 1px 3px #dff8fa;
+}
+
+
+
+.show {
+    display: block;
+}
+
+
+.btn {
+    cursor: pointer;
+    background-color: #0097A7;
+    border: none;
+    padding: .5em .7em;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #f0f9fa;
+    margin: .15em .6em;
+}
+
+.btn:hover {
+    background-color:#39dae6;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #046874 ;
+}
+
+.btn.active {
+    background-color: #046874;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #39dae6;
+}
