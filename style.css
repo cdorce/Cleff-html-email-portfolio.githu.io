@@ -132,7 +132,7 @@ html {
 
 /*FOR TESTING*/
 .portfolio-container {
-  border: 3px solid rgb(201, 73, 14);
+  border: 3px solid rgb(211, 22, 9);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -143,6 +143,7 @@ html {
   width: 100vw;
   height: 5vh;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -151,7 +152,6 @@ html {
   flex-direction: column;
   gap: 3vh;
   padding: 3vh;
-  height: 100vh;
 }
 
 [class^=block-] {
@@ -170,25 +170,26 @@ html {
   color: #002e33;
   cursor: pointer;
   display: none;
-  margin-bottom: 3rem;
 }
 .projects-card img {
   width: 15rem;
-  margin: 3rem 0;
 }
 .projects-card h3 {
   background-color: rgb(43, 214, 226);
   font-family: "Noto Sans", sans-serif;
-  padding-bottom: 0.5rem;
 }
 .projects-card h4 {
   background-color: blueviolet;
-  padding-bottom: 1.5rem;
 }
 .projects-card a {
   background-color: red;
   font-family: "Noto Sans", sans-serif;
+  border-bottom-right-radius: 0.85rem;
   padding: 0.5rem;
+}
+
+[class^=box-] {
+  margin-top: 2rem;
 }
 
 .show {
@@ -196,7 +197,6 @@ html {
   justify-content: center;
   align-items: center;
   flex-basis: 33.3333333333%;
-  flex-wrap: wrap;
 }
 
 .btn {

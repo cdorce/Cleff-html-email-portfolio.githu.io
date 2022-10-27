@@ -172,12 +172,10 @@ html {
 /*FOR TESTING*/
 
 .portfolio-container {
-    border: 3px solid rgb(201, 73, 14);
+    border: 3px solid rgb(211, 22, 9);
     width: 100vw;
     display: flex;
-    flex-direction:column ;
-
-
+    flex-direction: column;
 }
 
 .filterBtns{
@@ -185,6 +183,7 @@ html {
     width: 100vw;
     height: 5vh;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -196,7 +195,6 @@ html {
     flex-direction: column;
     gap: $gap;
     padding: $Padding;
-    height: 100vh;
 }
 
 [class ^="block-"]{
@@ -211,40 +209,47 @@ html {
 }
 
 
+
+
 .projects-card {
     border: 3px solid rgb(156, 223, 101);
     color: #002e33;
     cursor: pointer;  
     display: none;
-    margin-bottom: 3rem;
+
 
 
     & img{
         width:15rem ;
-        margin: 3rem 0;
+       
     }
 
     & h3 {
         background-color: rgb(43, 214, 226);
         font-family: $second-font;
-        padding-bottom: .5rem;
-
 
     }
 
     & h4{
         background-color: blueviolet;
-        padding-bottom: 1.5rem;
+
     }
 
 
     & a{
         background-color: red;
         font-family: $second-font;
-        
+        border-bottom-right-radius: .85rem;
         padding: 0.5rem;
     }
 }
+
+
+[class ^="box-"]{
+    margin-top: 2rem;
+
+}
+
 
 
 
@@ -254,7 +259,6 @@ html {
     justify-content: center;
     align-items: center; 
     flex-basis: (100%)/3;
-    flex-wrap: wrap;
 
 }
 
