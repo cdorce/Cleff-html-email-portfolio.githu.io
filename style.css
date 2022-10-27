@@ -94,31 +94,37 @@ html {
 
 .experience-container {
   border: 2px solid rgb(206, 151, 50);
-  width: 50vw;
+  flex-basis: 50%;
   height: 90vh;
 }
 
 .skills-container {
   border: 2px solid rgb(206, 50, 185);
-  width: 50vw;
-  height: 90vh;
+  flex-basis: 50%;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1.2rem 2rem;
   text-align: center;
-}
-.skills-container .skills-box {
-  background-color: rgb(240, 230, 237);
-  margin: 1.2rem;
-  padding-top: 1.2rem;
-  width: 5rem;
-  height: 7rem;
-  border-radius: 1.2rem;
+  gap: 3vh;
+  padding: 3vh;
+  flex-direction: column;
 }
 .skills-container .img-skills {
   width: 3rem;
 }
 .skills-container .text-skills {
   font-size: 0.8rem;
+}
+
+[class^=block-] {
+  display: flex;
+  gap: 3vh;
+  height: 28.3333333333vh;
+}
+
+[class^=skills-box] {
+  background-color: rgb(253, 252, 253);
+  padding-top: 1.2rem;
+  width: 5rem;
+  height: 7rem;
+  border-radius: 1.2rem;
+  flex-basis: 33.3333333333%;
 }/*# sourceMappingURL=style.css.map */
