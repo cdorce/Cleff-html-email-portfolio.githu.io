@@ -268,7 +268,7 @@ html {
     padding-top: 1.2rem;
     width: 5rem;
     height: 7rem;
-    border-radius: 1.2rem;
+    border-bottom-right-radius: 1.5rem;
     flex-basis: (100%)/3;
     box-shadow: 3px 2px 2px rgba(157, 178, 182, 0.726);
     transition: color 2s ease-out;
@@ -357,7 +357,7 @@ html {
 
 
     & a{
-         text-decoration: none;
+        text-decoration: none;
         font-family: $second-font;
         border-bottom-right-radius: .85rem;
         padding: 0.5rem 1rem;
@@ -396,6 +396,14 @@ html {
 
 
 }
+
+[class ^="boxa-"]:hover{
+
+    background-color: #e6e6e6;
+
+
+}
+
 
 
 
@@ -440,9 +448,50 @@ html {
 
 .about-container{
     width: 100VW;
-    height: 50vh;
-    background-color: rgb(80, 91, 199);
-    border: 3px solid greenyellow;
+    height: 80vh;
+    background-color: rgba(223, 222, 221, 0.747);
+    box-shadow: 5px 10px 5px rgba(21, 84, 97, 0.726);
+    padding: $Padding;
+    gap: $gap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   align-items: center;
+
+
+
+   & .about-text{
+    flex-basis: 60%;
+
+    & h2{
+        border-bottom: 2px solid rgb(196, 195, 195);
+        font-size: 2rem;
+    }
+   }
+
+
+   & h3{
+    color: $color4;
+    margin-top: 1.5rem;
+   }
+
+   & p{
+    font-family: $second-font;
+    margin-top: 2rem;
+    line-height: 1.5;
+
+   }
+
+    & .img-id-2{
+        width:15rem;
+        height: 17rem;
+        border-radius:  48% 52% 46% 54% / 67% 58% 42% 33% ;
+
+    }
+
+    & .img-id-2:hover{
+        border-radius:  72% 28% 55% 45% / 37% 75% 25% 63%  ;
+    }
 }
 
 
@@ -453,27 +502,47 @@ html {
     width: 100VW;
     height: 70vh;
     background-color: rgb(184, 192, 184);
-    border: 3px solid rgb(255, 47, 186);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding:4rem 0rem;
+    padding:$Padding;
+    gap: $gap;
 
     & img{
         width: 3.5rem;
     }
 
     & a{
-        padding: 3rem 5.5rem;
-        background-color: #39dae6;
-        border: 3px solid rgb(85, 47, 255);
-    }
+        font-family: $second-font;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: $color5;
+        font-size: 1.5rem;
 
-    & .img-id-2{
-        width:250px;
-        border-radius: 30%;
-        border: 3px solid rgb(61, 47, 255);
 
     }
+
+    .media-icon {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #dae0e0;
+        padding: 2rem 4rem;
+        box-shadow: 3px 2px 2px rgba(157, 178, 182, 0.726);
+        border-bottom-right-radius: 1.85rem;
+  
+    }
+
+    .media-icon:hover {
+        background-color: #f3f3f3da;
+
+        box-shadow: 3px 2px 2px rgba(158, 198, 204, 0.849);
+ 
+  
+    }
+
+
 }
