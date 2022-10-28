@@ -14,7 +14,7 @@ html {
 
 /*NAV BAR STYLING*/
 .logo {
-  background-image: url("/logo.svg");
+  background-image: url("logo.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 6vw;
@@ -57,7 +57,7 @@ html {
 }
 
 .img-container {
-  background-image: url("/profile-img.jpg");
+  background-image: url("profile-img.jpg");
   background-position: center;
   margin: 2.8rem 1.5rem;
   background-repeat: no-repeat;
