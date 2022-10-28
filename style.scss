@@ -67,12 +67,12 @@ html {
 }
 
 .hero-container {
-    background-image: url('');
     background-color: #dad8d8;
     width: 100vw;
     height: 100vh;
     display: flex;
     padding: $Padding;
+    padding-top: 4rem;
 
 } 
 .img-container {
@@ -103,7 +103,7 @@ html {
        margin: 1.8rem 0 4.5rem 0;
     }
 
-    & #work-btn {
+    & .hero-btn {
         text-decoration: none;
         font-size: 1.3rem;
         font-weight: bold;
@@ -115,7 +115,7 @@ html {
         box-shadow: 3px 2px 2px rgba(157, 178, 182, 0.726);
         transition: color 2s ease-out;
     }
-    & #work-btn:hover{
+    & .hero-btn:hover{
         color: $color5;
         background-color: $color2;
        
@@ -208,6 +208,7 @@ html {
 }
 
 .experience-container{
+    
     flex-basis:50%;
     height: 90vh;
     font-family: $second-font;
@@ -545,4 +546,20 @@ html {
     }
 
 
+}
+
+.footer-container {
+    background-color: #8d8e8f;
+    width: 100vw;
+    height: 10vh;
+    padding: &$Padding;
+    gap: $gap;
+    display: grid;
+    place-items: center;
+
+    & img{
+        width: 3.5rem;
+
+
+    }
 }
