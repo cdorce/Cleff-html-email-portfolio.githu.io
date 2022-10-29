@@ -260,6 +260,7 @@ html {
     cursor: pointer;  
     display: none;
     margin-bottom: 5rem;
+    margin-left: 2.5vw;
 
 
     & img{
@@ -565,6 +566,11 @@ html {
 
     
     & a{font-size: 1.2rem;}
+
+}
+
+.portfolio-container {
+padding: 1vw;
 }
     
 }

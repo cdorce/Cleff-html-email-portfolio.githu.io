@@ -196,6 +196,7 @@ html {
   cursor: pointer;
   display: none;
   margin-bottom: 5rem;
+  margin-left: 2.5vw;
 }
 .projects-card img {
   width: 15rem;
@@ -424,5 +425,8 @@ html {
   }
   .contact-container a {
     font-size: 1.2rem;
+  }
+  .portfolio-container {
+    padding: 1vw;
   }
 }/*# sourceMappingURL=style.css.map */
