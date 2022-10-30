@@ -488,9 +488,29 @@ html {
 
 
     } 
+
     & a:hover{
         color: #a4e4eb;
+       
+
      }
+
+     & a span{
+       display: none;
+       transition: transform .4s;
+        
+     }
+
+     & a:hover span{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transform: scale(2, 1.4);
+        margin-top: .7rem;
+
+         
+      }
+
 
    
 

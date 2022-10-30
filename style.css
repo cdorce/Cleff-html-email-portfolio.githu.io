@@ -370,6 +370,17 @@ html {
 .contact-container a:hover {
   color: #a4e4eb;
 }
+.contact-container a span {
+  display: none;
+  transition: transform 0.4s;
+}
+.contact-container a:hover span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: scale(2, 1.4);
+  margin-top: 0.7rem;
+}
 
 .footer {
   background-color: #8d8e8f;
