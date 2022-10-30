@@ -195,7 +195,6 @@ html {
 [class^=blocky-] {
   display: flex;
   flex-direction: row;
-  height: 33.3333333333vh;
   gap: 3vh;
   padding: 3vh;
   justify-content: center;
@@ -239,7 +238,7 @@ html {
 [class^=block-] {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
