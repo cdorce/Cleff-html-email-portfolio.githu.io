@@ -126,6 +126,9 @@ html {
   font-weight: 400;
   color: #555555;
 }
+.experience-container p {
+  padding-top: 2rem;
+}
 
 .skills-container {
   flex-basis: 50%;
