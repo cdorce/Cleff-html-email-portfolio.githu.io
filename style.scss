@@ -272,6 +272,7 @@ html {
     padding: $Padding;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -328,7 +329,7 @@ html {
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 
@@ -667,5 +668,21 @@ html {
 .portfolio-container {
 padding: 1vw;
 }
+
+
+.graphic-design-container {
+
+
+    & .graphic-title{
+        font-weight: 300;
+        margin-bottom: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    & .graphics-img a{
+        font-size: 1.5rem;
+    }
+}
+
     
 }
