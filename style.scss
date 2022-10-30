@@ -143,17 +143,36 @@ html {
     color: $color5;
     display: flex;
     justify-content: space-between;
-    padding: $Padding;
+   
 
 
 }
 
 .experience-container{
+
     
     flex-basis:50%;
     height: 90vh;
     font-family: $second-font;
-    padding: $Padding;
+    padding: 10% 5vh;
+ 
+    
+    & h2{
+        
+        font-weight: bolder;
+        padding: 2rem 0;
+        font-family:$primary-font ;
+        font-size: 2rem;
+        
+
+    }
+
+    & h4{
+
+        font-weight: 400;
+        color:$color4;
+        
+    }
 
 }
 

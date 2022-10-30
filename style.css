@@ -108,14 +108,23 @@ html {
   color: #333333;
   display: flex;
   justify-content: space-between;
-  padding: 3vh;
 }
 
 .experience-container {
   flex-basis: 50%;
   height: 90vh;
   font-family: "Noto Sans", sans-serif;
-  padding: 3vh;
+  padding: 10% 5vh;
+}
+.experience-container h2 {
+  font-weight: bolder;
+  padding: 2rem 0;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 2rem;
+}
+.experience-container h4 {
+  font-weight: 400;
+  color: #555555;
 }
 
 .skills-container {
