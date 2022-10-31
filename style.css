@@ -361,6 +361,23 @@ html {
   border-radius: 72% 28% 55% 45%/37% 75% 25% 63%;
 }
 
+/*VIDEO DEMO*/
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+}
+.videos-container h2 {
+  padding-bottom: 4rem;
+  font-size: 2.5rem;
+  color: #344041;
+}
+.videos-container video {
+  width: 67vw;
+}
+
 /*CONTACT ME CONTAINER*/
 .contact-container {
   width: 100VW;
@@ -497,5 +514,8 @@ html {
   }
   .graphic-design-container .graphics-img a {
     font-size: 1.5rem;
+  }
+  .videos-container video {
+    width: 90vw;
   }
 }/*# sourceMappingURL=style.css.map */
